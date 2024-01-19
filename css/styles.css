@@ -1,9 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   background-color: #fff;
   color: #434455;
 }
@@ -15,6 +12,9 @@ a {
   text-decoration: none;
 }
 
+/* -------------------- */
+
+/* ----------HEADER---------- */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -31,8 +31,9 @@ a {
 
 .header-navigation-link {
   color: #2e2f42;
-  font-style: normal;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-navigation-link:hover,
@@ -42,6 +43,8 @@ a {
 
 .header-adress {
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-adress-link {
@@ -53,11 +56,15 @@ a {
   color: #404bbf;
 }
 
+/* -------------------- */
+
+/* ----------HERO---------- */
+
 .hero {
   background-color: #2e2f42;
 }
 
-.hero-header {
+.hero-title {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -82,9 +89,11 @@ a {
   background-color: #404bbf;
 }
 
-.advantage-header,
-.team-header,
-.portfolio-header {
+/* -------------------- */
+
+/* ----------ADVANTAGES--------- */
+
+.title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -94,15 +103,22 @@ a {
   text-transform: capitalize;
 }
 
-.advantage-list-header,
-.team-list-header,
-.portfolio-list-header {
+.list-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
+.list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* -------------------- */
+
+/* ----------TEAM--------- */
 
 .team {
   background-color: #f4f4fd;
@@ -112,6 +128,10 @@ a {
   text-align: center;
   background-color: #fff;
 }
+
+/* -------------------- */
+
+/* ----------FOOTER--------- */
 
 .footer {
   background-color: #2e2f42;
@@ -123,3 +143,5 @@ a {
 .footer-text {
   color: #f4f4fd;
 }
+
+/* -------------------- */
